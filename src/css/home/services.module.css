@@ -1,0 +1,158 @@
+.section {
+  width: 100%;
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #f6f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container {
+  max-width: 540px;
+  padding: 0px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.up {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: #012970;
+  line-height: 1.2;
+}
+.p {
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.down {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.downdown {
+  width: 100%;
+  padding: 0px 12px;
+  margin-bottom: 48px;
+  transition: all 0.3s ease-in-out;
+  
+}
+.card {
+  height: 100%;
+   border-bottom: 3px solid #012970;
+  padding: 30px;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+  border-radius: 4px;
+  text-align: center;
+}
+.icondiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  filter: invert(65%) sepia(19%) saturate(7206%) hue-rotate(303deg)
+    brightness(101%) contrast(101%);
+}
+.icon1 {
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  filter: invert(94%) sepia(8%) saturate(4222%) hue-rotate(139deg)
+    brightness(84%) contrast(87%);
+}
+.icon2 {
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  filter: invert(68%) sepia(47%) saturate(1118%) hue-rotate(62deg)
+    brightness(96%) contrast(81%);
+}
+.icon3 {
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  filter: invert(50%) sepia(82%) saturate(5217%) hue-rotate(204deg)
+    brightness(105%) contrast(101%);
+}
+.h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  color: #444444;
+}
+.p2 {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .down{
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-top: 5px;
+  }
+  .downdown{
+      width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .downdown{
+      width: 25%;
+      height: 335px;
+  }
+}
+@media only screen and (min-width: 1202px) {
+  .container {
+    max-width: 1140px;
+  }
+  .downdown{
+      width: 25%;
+      height: 290px;
+  }
+}
+@media only screen and (min-width: 1402px) {
+  .container {
+    max-width: 1320px;
+  }
+  .downdown{
+      width: 25%;
+  }
+}

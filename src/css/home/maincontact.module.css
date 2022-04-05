@@ -1,0 +1,257 @@
+.section{
+    width: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container{
+    width: 100%;
+
+}
+.header{
+    width: 100%;
+        text-align: center;
+    padding-bottom: 40px;
+}
+.h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+    line-height: 32px;
+        margin: 10px 0 0 0;
+    padding: 0;
+  
+    font-weight: 700;
+    color: #012970;
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error{
+        font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545;
+    margin-left: 20px;
+}
+.up{
+    width: 100%;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.addrescard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carddiv{
+    width: 100%;
+    
+    margin-top: 24px;
+}
+.card{
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+
+}
+.icon{
+    font-size: 38px;
+    line-height: 0;
+    filter: invert(22%) sepia(80%) saturate(3987%) hue-rotate(234deg) brightness(102%) contrast(89%);
+}
+.h3{
+    font-family: "Nunito", sans-serif;
+        font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    line-height: 1.2;
+}
+.ap{
+        font-family: "Open Sans", sans-serif;
+        padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+        color: #444444;
+}
+.right{
+    width: 100%;
+    margin-top: 24px;
+    padding: 0px 12px;
+}
+.formdiv{
+    width: 100%;
+        background: #fafbff;
+    padding: 30px;
+    height: 100%;
+
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputdiv1{
+    width: 100%;
+     margin-top: 24px;
+    padding: 0px 12px;
+}
+.inputdiv{
+    width: 100%;
+     margin-top: 24px;
+    padding: 0px 12px;
+}
+.input{
+    outline-color: #5b68d6;
+    width: 100%;
+    padding: 10px 15px;
+        box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.textarea{
+     outline-color: #5b68d6;
+    width: 100%;
+    padding: 12px 15px;
+        box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+        font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        min-height: 35px;
+}
+.btndiv{
+    width: 100%;
+     margin-top: 24px;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.errormessage{
+    display: none;
+}
+.btn{
+        font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+        background: #4154f1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+    .p{
+        font-size: 38px;
+        line-height: 42px;
+    }
+   .row{
+       width: 100%;
+   }
+   .up{
+       width: 100%;
+   }
+   .addrescard{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       
+   }
+   .carddiv{
+       width: 48%;
+   }
+   .card{
+       width: 100%;
+   }
+   .form{
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+    .inputdiv1{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+    .row{
+      
+        
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    }
+    .up{
+        width: 50%;
+        margin-top: 0px;
+    }
+    .right{
+       
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1202px){
+    .container{
+        max-width: 1140px;
+    }
+}
+@media only screen and (min-width: 1402px){
+    .container{
+        max-width: 1320px;
+    }
+}

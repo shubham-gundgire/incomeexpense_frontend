@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background: #f6f9ff;
+  font-family: "open-sans", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #012970;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.span {
+      color: #012970;
+      font-weight: bold;
+}

@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 60px;
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+  background-color: #fff;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.logodiv {
+  display: flex;
+  align-items: center;
+}
+.logotext {
+  display: none;
+}
+.logoindiv {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo {
+  filter: invert(29%) sepia(75%) saturate(5463%) hue-rotate(233deg)
+    brightness(101%) contrast(89%);
+  height: 28px;
+  height: 28px;
+  margin-right: 6px;
+  vertical-align: middle;
+  line-height: 1;
+}
+.menubtndiv {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menubtn {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  color: #012970;
+}
+.profilediv {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem !important;
+}
+.profiledivname {
+  display: none;
+}
+.profiledivname {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 0.5rem !important;
+  white-space: nowrap;
+  color: #012970;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.profile {
+  color: #012970;
+  padding: 8px 0px 8px 16px;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.profileimg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #e6ecfa;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'open-sans',sans-serif;
+}
+.dropd{
+    margin-top: 5px;
+    margin-left: 4px;
+}
+@media only screen and (min-width: 730px){
+  .logotext{
+      display: block;
+      font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #012970;
+    white-space: nowrap;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: 10px;
+    margin-left: 3px;
+  }  
+}
+@media only screen and (min-width: 1120px){
+  .header{
+      padding:0px 20px 0px 40px ;
+  }
+    
+}
+@media only screen and (min-width: 1200px){
+  .menubtn{
+    display: none;
+  }
+    
+}

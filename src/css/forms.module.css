@@ -1,0 +1,202 @@
+.section {
+  width: 100%;
+  min-height: 100vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0px 24px 0px;
+}
+.container {
+  width: 100%;
+  padding: 0px 12px;
+}
+.row {
+  width: 100%;
+}
+.linke{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.wraper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+}
+.logodiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px 24px 0px;
+}
+.logo {
+  width: 30px;
+  height: 28px;
+  margin-right: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+  filter: invert(28%) sepia(80%) saturate(4510%) hue-rotate(231deg)
+    brightness(98%) contrast(93%);
+}
+.main {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgb(1 41 112 / 10%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+}
+.card {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.up {
+  padding: 24px 0px 8px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.h5 {
+  padding: 20px 0 0 0;
+  font-size: 21px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+
+  color: #444444;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.error{
+        font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545;
+    margin-left: 10px;
+}
+.inputdiv {
+  width: 100%;
+  margin-top: 16px;
+  padding: 0px 8px;
+  
+}
+.label {
+ font-size: 16px;
+ line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+   margin-bottom: 8px;
+}
+.username{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input1{
+    
+display: block;
+   width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a1adb9;  
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline-color: #4154f1;
+}
+.checkbox{
+    width: 100%;
+   display: flex;
+   align-items: center;
+  
+}
+.check{
+    width: 18px;
+    height: 18px;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    margin-bottom: 10px;
+margin-right: 10px;
+}
+.btn{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    width: 100%!important;
+        cursor: pointer;
+        font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+        border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.logotext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #012970;
+  white-space: nowrap;
+ 
+}
+.ishave{
+        font-size: .875em;
+        color: #444444;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
+}
+.signlink{
+    color: #4154f1;
+    text-decoration: none;
+        cursor: pointer;
+            margin-left: 2px;
+}
+
+@media only screen and (min-width: 550px){
+    .container{
+        max-width: 430px;
+    }
+}
